@@ -108,6 +108,8 @@ body {
   align-items: flex-end;
 }
 
+
+
 .logo {
   width: 60px;
   height: 60px;
@@ -151,11 +153,30 @@ body {
   color: var(--white-color);
 }
 
+@media screen and (max-width: 768px) {
+  .burger {
+    margin-right: 30px;
+  }
+
+  .logo {
+    margin-left: 30px;
+  }
+}
+
 @media screen and (max-width: 425px) {
+  .burger {
+    margin-right: 30px;
+  }
+
+  .logo {
+    margin-left: 30px;
+  }
+
   .h1 {
     font-size: 48px;
     line-height: 64px;
   }  
+
 }
 
 
