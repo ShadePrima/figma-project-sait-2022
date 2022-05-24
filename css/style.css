@@ -151,10 +151,24 @@ body {
   color: var(--white-color);
 }
 
+@media screen and (max-width: 425px) {
+  .h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }  
+}
+
+
+@media screen and (max-width: 375px) {
+  .h1 {
+    font-size: 45px;
+  }  
+}
+
 @media screen and (max-width: 320px) {
   .h1 {
-    font-size: 37px;
-    line-height: 64px;
+    font-size: 36px;
+    line-height: 60px;
   }  
 }
 
@@ -488,8 +502,8 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .portfolio__img {
-    margin-left: 16px;
+    margin-left: 22px;
   }
 }
