@@ -663,3 +663,10 @@ body {
     margin-right: 10px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .partners__flex {
+    flex-direction: column;
+    align-content: center;
+  }
+}
